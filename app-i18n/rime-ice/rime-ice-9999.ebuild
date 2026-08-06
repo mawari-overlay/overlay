@@ -70,7 +70,7 @@ src_prepare() {
 
 	# Rename default.yaml to avoid overwriting the system file.
 	# We keep it as a reference for hotkeys/colors if the theme flag is enabled.
-	mv default.yaml default.yaml.rime-ice || die
+	mv default.yaml rime_ice_suggestion.yaml || die
 
 	# =========================================================
 	# 3. Handle USE flags (Modular Installation)
@@ -82,7 +82,7 @@ src_prepare() {
 		# squirrel.yaml (macOS) and weasel.yaml (Windows) contain color presets.
 		rm -f squirrel.yaml weasel.yaml || die
 		# Also remove the renamed default config if the user doesn't want themes.
-		rm -f default.yaml.rime-ice || die
+		rm -f rime_ice_suggestion.yaml || die
 	fi
 
 	# [Tencent] Large Dictionary
