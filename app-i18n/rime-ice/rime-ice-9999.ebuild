@@ -1,7 +1,7 @@
-# Modified from https://github.com/gentoo-zh/overlay/blob/master/app-i18n/rime-ice/rime-ice-9999.ebuild
-
 # Copyright 2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
+
+# Modified from https://github.com/gentoo-zh/overlay/blob/master/app-i18n/rime-ice/rime-ice-9999.ebuild
 
 EAPI=8
 LUA_COMPAT=( lua5-4 )
