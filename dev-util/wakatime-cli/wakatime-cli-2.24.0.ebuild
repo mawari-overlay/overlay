@@ -8,7 +8,7 @@ inherit go-module
 DESCRIPTION="Command line interface used by all WakaTime text editor plugins"
 HOMEPAGE="https://github.com/wakatime/wakatime-cli"
 SRC_URI="https://github.com/wakatime/wakatime-cli/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
-	https://github.com/ricky8955555/mawari-depfiles/releases/download/20260805095241/${P}-deps.tar.xz"
+	https://github.com/ricky8955555/mawari-depfiles/releases/download/20260808100337/${P}-deps.tar.xz"
 
 LICENSE="BSD BSD-2 MIT LGPL-3 Apache-2.0"
 SLOT="0"
