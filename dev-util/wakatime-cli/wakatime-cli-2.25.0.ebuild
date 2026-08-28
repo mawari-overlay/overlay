@@ -14,7 +14,7 @@ LICENSE="BSD BSD-2 MIT LGPL-3 Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
-BDEPEND=">=dev-lang/go-1.26.5"
+BDEPEND=">=dev-lang/go-1.26.6"
 
 src_compile() {
 	ego build
