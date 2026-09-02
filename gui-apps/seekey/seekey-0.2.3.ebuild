@@ -7,7 +7,7 @@ inherit xdg
 
 DESCRIPTION="A tool to show your key inputs on wayland."
 HOMEPAGE="https://github.com/Nakanomk/Seekey"
-SRC_URI="https://github.com/Nakanomk/Seekey/archive/refs/tags/v${PV}.tar.gz"
+SRC_URI="https://github.com/Nakanomk/Seekey/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
 S="${WORKDIR}/Seekey-${PV}"
 
