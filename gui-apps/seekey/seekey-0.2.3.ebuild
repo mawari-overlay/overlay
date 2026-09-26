@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit xdg
+inherit flag-o-matic xdg
 
 DESCRIPTION="A tool to show your key inputs on wayland."
 HOMEPAGE="https://github.com/Nakanomk/Seekey"
@@ -34,6 +34,11 @@ BDEPEND="
 
 src_test() {
   emake check
+}
+
+src_configure() {
+  default
+  append-ldflags "-Wl,--no-as-needed"
 }
 
 src_compile() {
